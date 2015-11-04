@@ -1,7 +1,7 @@
-http://127.0.0.1:8888/hello-world/
-http://127.0.0.1:8888/about/
-http://127.0.0.1:8888/tag/hello-world/
-http://127.0.0.1:8888/archive/2013/
-http://127.0.0.1:8888/feed.xml
-http://127.0.0.1:8888/
-http://127.0.0.1:8888/404.html
+http://curtainwang.github.io/hello-world/
+http://curtainwang.github.io/about/
+http://curtainwang.github.io/tag/hello-world/
+http://curtainwang.github.io/archive/2013/
+http://curtainwang.github.io/feed.xml
+http://curtainwang.github.io/
+http://curtainwang.github.io/404.html
