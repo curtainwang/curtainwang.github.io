@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Curtain Wang's Blog</title>
+    <title>curtainwang</title>
     <link href="" rel="self" />
     <link href="http://curtainwang.github.io/" />
     <updated>2013-08-25T23:30:00Z</updated>
@@ -8,7 +8,7 @@
     
     <entry>
         <title><![CDATA[Hello, World!]]></title>
-        <author><name>curtainwang</name><uri>http://curtainwang.github.io/</uri></author>
+        <author><name>nickname</name><uri>http://curtainwang.github.io/</uri></author>
         <link href="http://curtainwang.github.io/hello-world/"/>
         <updated>2013-08-25T23:30:00Z</updated>
         <published>2013-08-25T23:30:00Z</published>
