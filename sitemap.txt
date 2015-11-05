@@ -1,7 +1,5 @@
 http://curtainwang.github.io/hello-world/
 http://curtainwang.github.io/about/
-http://curtainwang.github.io/tag/hello-world/
-http://curtainwang.github.io/archive/2015/
-http://curtainwang.github.io/feed.xml
+http://curtainwang.github.io/archive/
 http://curtainwang.github.io/
 http://curtainwang.github.io/404.html
