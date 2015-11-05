@@ -55,7 +55,7 @@
     },
 
     "theme": {
-        "name": "sealscript",
+        "name": "simple",
         "vars": {
             "github": "curtainwang",
             "links": [
