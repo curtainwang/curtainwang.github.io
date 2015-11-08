@@ -1,0 +1,224 @@
+中国科学技术大学源：
+Trusty(14.04) Linux学习，http:// linux.it.net.cn
+deb http://mirrors.ustc.edu.cn/ubuntu/ trusty main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ trusty-security main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ trusty-proposed main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ trusty-backports main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ trusty main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ trusty-security main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ trusty-updates main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ trusty-proposed main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ trusty-backports main restricted universe multiverse
+Quantal(12.10)
+deb http://mirrors.ustc.edu.cn/ubuntu/ quantal main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ quantal-security main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ quantal-updates main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ quantal-proposed main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ quantal-backports main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ quantal main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ quantal-security main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ quantal-updates main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ quantal-proposed main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ quantal-backports main restricted universe multiverse
+Precise(12.04)
+deb http://mirrors.ustc.edu.cn/ubuntu/ precise main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ precise-security main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ precise-updates main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ precise-proposed main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ precise-backports main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ precise main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ precise-security main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ precise-updates main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ precise-proposed main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ precise-backports main restricted universe multiverse
+Oneiric(11.10) IT网，http://www.it.net.cn
+deb http://mirrors.ustc.edu.cn/ubuntu/ oneiric main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ oneiric-security main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ oneiric-updates main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ oneiric-proposed main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ oneiric-backports main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ oneiric main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ oneiric-security main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ oneiric-updates main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ oneiric-proposed main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ oneiric-backports main restricted universe multiverse
+Natty(11.04)
+deb http://mirrors.ustc.edu.cn/ubuntu/ natty main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ natty-security main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ natty-updates main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ natty-proposed main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ natty-backports main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ natty main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ natty-security main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ natty-updates main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ natty-proposed main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ natty-backports main restricted universe multiverse
+阿里云源：
+Trusty(14.04) Linux学习，http:// linux.it.net.cn
+deb http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
+Quantal(12.10) IT网，http://www.it.net.cn
+deb http://mirrors.aliyun.com/ubuntu/ quantal main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ quantal-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ quantal-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ quantal-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ quantal-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ quantal main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ quantal-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ quantal-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ quantal-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ quantal-backports main restricted universe multiverse
+Precise(12.04)
+deb http://mirrors.aliyun.com/ubuntu/ precise main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ precise-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ precise-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ precise-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ precise-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ precise main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ precise-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ precise-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ precise-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ precise-backports main restricted universe multiverse
+Oneiric(11.10)
+deb http://mirrors.aliyun.com/ubuntu/ oneiric main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ oneiric-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ oneiric-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ oneiric-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ oneiric-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ oneiric main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ oneiric-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ oneiric-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ oneiric-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ oneiric-backports main restricted universe multiverse
+Natty(11.04) Linux学习，http:// linux.it.net.cn
+deb http://mirrors.aliyun.com/ubuntu/ natty main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ natty-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ natty-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ natty-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ natty-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ natty main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ natty-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ natty-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ natty-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ natty-backports main restricted universe multiverse
+163源：
+Trusty(14.04)
+deb http://mirrors.163.com/ubuntu/ trusty main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ trusty-security main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ trusty-backports main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty-security main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ trusty-backports main restricted universe multiverse
+Quantal(12.10) IT网，http://www.it.net.cn
+deb http://mirrors.163.com/ubuntu/ quantal main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ quantal-security main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ quantal-updates main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ quantal-proposed main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ quantal-backports main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ quantal main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ quantal-security main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ quantal-updates main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ quantal-proposed main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ quantal-backports main restricted universe multiverse
+Precise(12.04) Linux学习，http:// linux.it.net.cn
+deb http://mirrors.163.com/ubuntu/ precise main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ precise-security main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ precise-updates main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ precise-proposed main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ precise-backports main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ precise main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ precise-security main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ precise-updates main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ precise-proposed main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ precise-backports main restricted universe multiverse
+Oneiric(11.10)
+deb http://mirrors.163.com/ubuntu/ oneiric main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ oneiric-security main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ oneiric-updates main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ oneiric-proposed main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ oneiric-backports main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ oneiric main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ oneiric-security main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ oneiric-updates main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ oneiric-proposed main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ oneiric-backports main restricted universe multiverse
+Natty(11.04) IT网，http://www.it.net.cn
+deb http://mirrors.163.com/ubuntu/ natty main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ natty-security main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ natty-updates main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ natty-proposed main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ natty-backports main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ natty main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ natty-security main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ natty-updates main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ natty-proposed main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ natty-backports main restricted universe multiverse
+sohu源：
+Trusty(14.04)
+deb http://mirrors.sohu.com/ubuntu/ trusty main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ trusty-security main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ trusty-backports main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ trusty main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ trusty-security main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ trusty-proposed main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ trusty-backports main restricted universe multiverse
+Quantal(12.10)
+deb http://mirrors.sohu.com/ubuntu/ quantal main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ quantal-security main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ quantal-updates main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ quantal-proposed main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ quantal-backports main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ quantal main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ quantal-security main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ quantal-updates main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ quantal-proposed main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ quantal-backports main restricted universe multiverse
+Precise(12.04)
+deb http://mirrors.sohu.com/ubuntu/ precise main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ precise-security main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ precise-updates main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ precise-proposed main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ precise-backports main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ precise main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ precise-security main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ precise-updates main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ precise-proposed main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ precise-backports main restricted universe multiverse
+Oneiric(11.10)
+deb http://mirrors.sohu.com/ubuntu/ oneiric main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ oneiric-security main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ oneiric-updates main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ oneiric-proposed main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ oneiric-backports main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ oneiric main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ oneiric-security main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ oneiric-updates main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ oneiric-proposed main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ oneiric-backports main restricted universe multiverse
+Natty(11.04) Linux学习，http:// linux.it.net.cn
+deb http://mirrors.sohu.com/ubuntu/ natty main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ natty-security main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ natty-updates main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ natty-proposed main restricted universe multiverse
+deb http://mirrors.sohu.com/ubuntu/ natty-backports main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ natty main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ natty-security main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ natty-updates main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ natty-proposed main restricted universe multiverse
+deb-src http://mirrors.sohu.com/ubuntu/ natty-backports main restricted universe multiverse
