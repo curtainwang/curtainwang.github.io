@@ -1,0 +1,5 @@
+npm install hexo -g
+npm install hexo --save
+
+npm install hexo --save
+npm install
