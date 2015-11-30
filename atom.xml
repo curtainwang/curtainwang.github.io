@@ -4,7 +4,7 @@
   <subtitle><![CDATA[记录]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://curtainwang.github.io/"/>
-  <updated>2015-11-30T16:08:39.795Z</updated>
+  <updated>2015-11-30T15:58:35.000Z</updated>
   <id>http://curtainwang.github.io/</id>
   
   <author>
@@ -19,10 +19,10 @@
     <link href="http://curtainwang.github.io/2015/11/30/gets&&scanf/"/>
     <id>http://curtainwang.github.io/2015/11/30/gets&&scanf/</id>
     <published>2015-11-30T15:37:24.000Z</published>
-    <updated>2015-11-30T16:08:39.795Z</updated>
+    <updated>2015-11-30T15:58:35.000Z</updated>
     <content type="html"><![CDATA[<p>gets和scanf函数的区别</p>
 <a id="more"></a>
-<p>scanf()函数和gets()函数都可用于输入字符串，但在功能上有区别。<br>若想从键盘上输入字符串”hi hello”，则应该使用<strong>gets</strong>函数。</p>
+<h3 id="之前一直在用这两个函数，但是一直分不清有什么区别，有时候这个函数正常了另一个不正常，有时候有貌似都可以">之前一直在用这两个函数，但是一直分不清有什么区别，有时候这个函数正常了另一个不正常，有时候有貌似都可以</h3><h3 id="在此也趁着十一月的最后一天的晚上，写篇博客:)">在此也趁着十一月的最后一天的晚上，写篇博客:)</h3><p>scanf()函数和gets()函数都可用于输入字符串，但在功能上有区别。<br>若想从键盘上输入字符串”hi hello”，则应该使用<strong>gets</strong>函数。</p>
 <h2 id="gets可以接收空格；">gets可以接收空格；</h2><h2 id="而scanf遇到空格、回车和Tab键都会认为输入结束，所有它不能接收空格。">而scanf遇到空格、回车和Tab键都会认为输入结束，所有它不能接收空格。</h2><pre>
 char string[15]; 
 gets(string); /*遇到回车认为输入结束*/
