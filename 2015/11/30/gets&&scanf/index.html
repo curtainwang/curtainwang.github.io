@@ -172,6 +172,21 @@ scanf("%s",string); /*遇到空格认为输入结束*/
 <aside class="clearfix">
 
   
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+		  
+			<li><a href="/categories/MD语法/" title="MD语法">MD语法<sup>1</sup></a></li>
+		  
+		
+		  
+			<li><a href="/categories/音乐/" title="音乐">音乐<sup>1</sup></a></li>
+		  
+		
+		</ul>
+</div>
+
 
 </aside>
 </div>
@@ -367,27 +382,6 @@ $(document).ready(function(){
 
 
 
-
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){ 
-  $('.article-content').each(function(i){
-    $(this).find('img').each(function(){
-      if ($(this).parent().hasClass('fancybox')) return;
-      var alt = this.alt;
-      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
-      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
-    });
-    $(this).find('.fancybox').each(function(){
-      $(this).attr('rel', 'article' + i);
-    });
-  });
-  if($.fancybox){
-    $('.fancybox').fancybox();
-  }
-}); 
-</script>
 
 
 

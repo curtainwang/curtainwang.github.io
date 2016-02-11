@@ -80,6 +80,19 @@
 
   <section class="post" itemscope itemprop="blogPost">
   
+    <a href="/2015/12/31/2015总结/" title="总结2015" itemprop="url">
+  
+
+    <time datetime="2015-12-31T14:58:24.000Z" itemprop="datePublished">2015-12-31</time>
+
+
+    <h1 itemprop="name">总结2015</h1>
+
+  </a>
+</section>
+
+  <section class="post" itemscope itemprop="blogPost">
+  
     <a href="/2015/11/27/忧患/" title="忧患" itemprop="url">
   
 
@@ -93,7 +106,7 @@
 
   <section class="post" itemscope itemprop="blogPost">
   
-    <a href="/2015/11/13/say/" title="say" itemprop="url">
+    <a href="/2015/11/13/生活/" title="say" itemprop="url">
   
 
     <time datetime="2015-11-13T07:58:24.000Z" itemprop="datePublished">2015-11-13</time>
@@ -220,27 +233,6 @@ $(document).ready(function(){
 
 
 
-
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){ 
-  $('.article-content').each(function(i){
-    $(this).find('img').each(function(){
-      if ($(this).parent().hasClass('fancybox')) return;
-      var alt = this.alt;
-      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
-      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
-    });
-    $(this).find('.fancybox').each(function(){
-      $(this).attr('rel', 'article' + i);
-    });
-  });
-  if($.fancybox){
-    $('.fancybox').fancybox();
-  }
-}); 
-</script>
 
 
 
