@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://curtainwang.github.io/404.html</loc>
+    <lastmod>2016-02-11T08:59:18.905Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://curtainwang.github.io/2015/12/03/string/</loc>
     <lastmod>2015-12-03T07:36:10.625Z</lastmod>
   </url>
@@ -34,11 +39,6 @@
   <url>
     <loc>http://curtainwang.github.io/2015/11/12/hello-world/</loc>
     <lastmod>2015-11-13T08:16:36.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://curtainwang.github.io/404.html</loc>
-    <lastmod>2015-11-13T07:56:45.967Z</lastmod>
   </url>
   
 </urlset>
