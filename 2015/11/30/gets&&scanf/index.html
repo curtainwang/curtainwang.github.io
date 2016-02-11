@@ -7,7 +7,7 @@
     <title>gets和scanf | 部落格</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
-    <meta name="author" content="Curtain Wang">
+    <meta name="author" content="curtainwang">
     
 
     
@@ -42,7 +42,7 @@
 		
 			<div id="textlogo">
 				<h1 class="site-name"><a href="/" title="部落格">部落格</a></h1>
-				<h2 class="blog-motto">记录</h2>
+				<h2 class="blog-motto"></h2>
 			</div>
 			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
 			</a></div>
@@ -80,7 +80,7 @@
   </h1>
   <p class="article-author">By
        
-		<a href="/about" title="Curtain Wang" target="_blank" itemprop="author">Curtain Wang</a>
+		<a href="/about" title="curtainwang" target="_blank" itemprop="author">curtainwang</a>
 		
   <p class="article-time">
     <time datetime="2015-11-30T15:37:24.000Z" itemprop="datePublished"> 发表于 2015-11-30</time>
@@ -88,13 +88,6 @@
   </p>
 </header>
 	<div class="article-content">
-		
-		<div id="toc" class="toc-article">
-			<strong class="toc-title">文章目录</strong>
-		
-			<ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#之前一直在用这两个函数，但是一直分不清有什么区别，有时候这个函数正常了另一个不正常，有时候有貌似都可以，在此也趁着十一月的最后一天的晚上，写篇博客:)"><span class="toc-number">1.</span> <span class="toc-text">之前一直在用这两个函数，但是一直分不清有什么区别，有时候这个函数正常了另一个不正常，有时候有貌似都可以，在此也趁着十一月的最后一天的晚上，写篇博客:)</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#gets可以接收空格；"><span class="toc-number"></span> <span class="toc-text">gets可以接收空格；</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#而scanf遇到空格、回车和Tab键都会认为输入结束，所有它不能接收空格。"><span class="toc-number"></span> <span class="toc-text">而scanf遇到空格、回车和Tab键都会认为输入结束，所有它不能接收空格。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#scanf和gets获取字符串时的区别(在C语言中，能构获取字符串的函数至少有两个)"><span class="toc-number"></span> <span class="toc-text">scanf和gets获取字符串时的区别(在C语言中，能构获取字符串的函数至少有两个)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-scanf()"><span class="toc-number">1.</span> <span class="toc-text">1.scanf()</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-gets()"><span class="toc-number">2.</span> <span class="toc-text">2.gets()</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#两者在接受字符串时："><span class="toc-number"></span> <span class="toc-text">两者在接受字符串时：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-不同点："><span class="toc-number">1.</span> <span class="toc-text">1.不同点：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-相同点："><span class="toc-number">2.</span> <span class="toc-text">2.相同点：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#例1："><span class="toc-number">3.</span> <span class="toc-text">例1：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#例2："><span class="toc-number">4.</span> <span class="toc-text">例2：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#scanf_："><span class="toc-number"></span> <span class="toc-text">scanf ：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#当遇到回车，空格和tab键会自动在字符串后面添加’\0’，但是回车，空格和tab键仍会留在输入的缓冲区中。scanf()可以读取所有类型的变量"><span class="toc-number">1.</span> <span class="toc-text">当遇到回车，空格和tab键会自动在字符串后面添加’\0’，但是回车，空格和tab键仍会留在输入的缓冲区中。scanf()可以读取所有类型的变量</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#gets："><span class="toc-number"></span> <span class="toc-text">gets：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#可接受回车键之前输入的所有字符，并用’\n’替代_‘\0’-回车键不会留在输入缓冲区中"><span class="toc-number">1.</span> <span class="toc-text">可接受回车键之前输入的所有字符，并用’\n’替代 ‘\0’.回车键不会留在输入缓冲区中</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#gets()用到读取字符串，用回车结束输入"><span class="toc-number">2.</span> <span class="toc-text">gets()用到读取字符串，用回车结束输入</span></a></li></ol>
-		
-		</div>
 		
 		<p>gets和scanf函数的区别</p>
 <a id="more"></a>
@@ -133,7 +126,7 @@ scanf("%s",string); /*遇到空格认为输入结束*/
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://curtainwang.github.io/2015/11/30/gets&&scanf/" data-title="gets和scanf | 部落格" data-tsina="null" class="share clearfix">
+	  <div data-url="http://curtainwang.github.io/2015/11/30/gets&&scanf/" data-title="gets和scanf | 部落格" data-tsina="undefined" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -174,66 +167,11 @@ scanf("%s",string); /*遇到空格认为输入结束*/
 </div>  
       <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 
-  <div id="toc" class="toc-aside">
-  <strong class="toc-title">文章目录</strong>
- 
- <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#之前一直在用这两个函数，但是一直分不清有什么区别，有时候这个函数正常了另一个不正常，有时候有貌似都可以，在此也趁着十一月的最后一天的晚上，写篇博客:)"><span class="toc-number">1.</span> <span class="toc-text">之前一直在用这两个函数，但是一直分不清有什么区别，有时候这个函数正常了另一个不正常，有时候有貌似都可以，在此也趁着十一月的最后一天的晚上，写篇博客:)</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#gets可以接收空格；"><span class="toc-number"></span> <span class="toc-text">gets可以接收空格；</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#而scanf遇到空格、回车和Tab键都会认为输入结束，所有它不能接收空格。"><span class="toc-number"></span> <span class="toc-text">而scanf遇到空格、回车和Tab键都会认为输入结束，所有它不能接收空格。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#scanf和gets获取字符串时的区别(在C语言中，能构获取字符串的函数至少有两个)"><span class="toc-number"></span> <span class="toc-text">scanf和gets获取字符串时的区别(在C语言中，能构获取字符串的函数至少有两个)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-scanf()"><span class="toc-number">1.</span> <span class="toc-text">1.scanf()</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-gets()"><span class="toc-number">2.</span> <span class="toc-text">2.gets()</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#两者在接受字符串时："><span class="toc-number"></span> <span class="toc-text">两者在接受字符串时：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-不同点："><span class="toc-number">1.</span> <span class="toc-text">1.不同点：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-相同点："><span class="toc-number">2.</span> <span class="toc-text">2.相同点：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#例1："><span class="toc-number">3.</span> <span class="toc-text">例1：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#例2："><span class="toc-number">4.</span> <span class="toc-text">例2：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#scanf_："><span class="toc-number"></span> <span class="toc-text">scanf ：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#当遇到回车，空格和tab键会自动在字符串后面添加’\0’，但是回车，空格和tab键仍会留在输入的缓冲区中。scanf()可以读取所有类型的变量"><span class="toc-number">1.</span> <span class="toc-text">当遇到回车，空格和tab键会自动在字符串后面添加’\0’，但是回车，空格和tab键仍会留在输入的缓冲区中。scanf()可以读取所有类型的变量</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#gets："><span class="toc-number"></span> <span class="toc-text">gets：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#可接受回车键之前输入的所有字符，并用’\n’替代_‘\0’-回车键不会留在输入缓冲区中"><span class="toc-number">1.</span> <span class="toc-text">可接受回车键之前输入的所有字符，并用’\n’替代 ‘\0’.回车键不会留在输入缓冲区中</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#gets()用到读取字符串，用回车结束输入"><span class="toc-number">2.</span> <span class="toc-text">gets()用到读取字符串，用回车结束输入</span></a></li></ol>
- 
-  </div>
-
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
 <aside class="clearfix">
 
   
-
-
-  
-
-  
-<div class="tagslist">
-	<p class="asidetitle">标签</p>
-		<ul class="clearfix">
-		
-			
-				<li><a href="/tags/言/" title="言">言<sup>2</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/C-C/" title="C/C++">C/C++<sup>2</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/音乐/" title="音乐">音乐<sup>1</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/默认/" title="默认">默认<sup>1</sup></a></li>
-			
-		
-		</ul>
-</div>
-
-
-  <div class="linkslist">
-  <p class="asidetitle">友情链接</p>
-    <ul>
-        
-    </ul>
-</div>
-
-  
-
-
-  <div class="rsspart">
-	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
-</div>
-
-  <div class="weiboshow">
-  <p class="asidetitle">新浪微博</p>
-    <iframe width="100%" height="119" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=119&fansRow=2&ptype=1&speed=0&skin=9&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=null&verifier=b3593ceb&dpc=1"></iframe>
-</div>
-
 
 </aside>
 </div>
@@ -253,7 +191,7 @@ scanf("%s",string); /*遇到空格认为输入结束*/
 	 
 	<div class="social-font" class="clearfix">
 		
-		<a href="http://weibo.com/3369367132" target="_blank" class="icon-weibo" title="微博"></a>
+		<a href="http://weibo.com/curtainwang" target="_blank" class="icon-weibo" title="微博"></a>
 		
 		
 		
@@ -273,7 +211,7 @@ scanf("%s",string); /*遇到空格认为输入结束*/
 		<p class="copyright">
 		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016 
 		
-		<a href="/about" target="_blank" title="Curtain Wang">Curtain Wang</a>
+		<a href="/about" target="_blank" title="curtainwang">curtainwang</a>
 		
 		
 		</p>
@@ -315,6 +253,11 @@ $(document).ready(function(){
     o.css("top",Math.max(80,260-$(this).scrollTop()));
   });
   
+        getSize();
+        if (myWidth >= 1024) {
+          c.click();
+        }
+  
   $(window).resize(function(){
     getSize(); 
     if (myWidth >= 1024) {
@@ -323,8 +266,6 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
-      
-      $('#toc.toc-aside').css('display', 'none');
         
     }
   });

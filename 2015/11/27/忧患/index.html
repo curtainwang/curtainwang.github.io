@@ -7,7 +7,7 @@
     <title>忧患 | 部落格</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
-    <meta name="author" content="Curtain Wang">
+    <meta name="author" content="curtainwang">
     
 
     
@@ -42,7 +42,7 @@
 		
 			<div id="textlogo">
 				<h1 class="site-name"><a href="/" title="部落格">部落格</a></h1>
-				<h2 class="blog-motto">记录</h2>
+				<h2 class="blog-motto"></h2>
 			</div>
 			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
 			</a></div>
@@ -80,7 +80,7 @@
   </h1>
   <p class="article-author">By
        
-		<a href="/about" title="Curtain Wang" target="_blank" itemprop="author">Curtain Wang</a>
+		<a href="/about" title="curtainwang" target="_blank" itemprop="author">curtainwang</a>
 		
   <p class="article-time">
     <time datetime="2015-11-27T12:19:38.000Z" itemprop="datePublished"> 发表于 2015-11-27</time>
@@ -88,13 +88,6 @@
   </p>
 </header>
 	<div class="article-content">
-		
-		<div id="toc" class="toc-article">
-			<strong class="toc-title">文章目录</strong>
-		
-			
-		
-		</div>
 		
 		<p>生于忧患，死于安乐<br><a id="more"></a><br>　　舜发于畎亩之中，傅说举于版筑之间，胶鬲举于鱼盐之中，管夷吾举于士，孙叔敖举于海，百里奚举于市。<br>　　故天将降大任于是人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为，所以动心忍性，曾益其所不能。<br>　　人恒过，然后能改；困于心，衡于虑，而后作；征于色，发于声，而后喻。入则无法家拂士，出则无敌国外患者，国恒亡。<br>　　然后知生于忧患，而死于安乐也。</p>
   
@@ -114,7 +107,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://curtainwang.github.io/2015/11/27/忧患/" data-title="忧患 | 部落格" data-tsina="null" class="share clearfix">
+	  <div data-url="http://curtainwang.github.io/2015/11/27/忧患/" data-title="忧患 | 部落格" data-tsina="undefined" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -155,66 +148,11 @@
 </div>  
       <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 
-  <div id="toc" class="toc-aside">
-  <strong class="toc-title">文章目录</strong>
- 
- 
- 
-  </div>
-
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
 <aside class="clearfix">
 
   
-
-
-  
-
-  
-<div class="tagslist">
-	<p class="asidetitle">标签</p>
-		<ul class="clearfix">
-		
-			
-				<li><a href="/tags/言/" title="言">言<sup>2</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/C-C/" title="C/C++">C/C++<sup>2</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/音乐/" title="音乐">音乐<sup>1</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/默认/" title="默认">默认<sup>1</sup></a></li>
-			
-		
-		</ul>
-</div>
-
-
-  <div class="linkslist">
-  <p class="asidetitle">友情链接</p>
-    <ul>
-        
-    </ul>
-</div>
-
-  
-
-
-  <div class="rsspart">
-	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
-</div>
-
-  <div class="weiboshow">
-  <p class="asidetitle">新浪微博</p>
-    <iframe width="100%" height="119" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=119&fansRow=2&ptype=1&speed=0&skin=9&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=null&verifier=b3593ceb&dpc=1"></iframe>
-</div>
-
 
 </aside>
 </div>
@@ -234,7 +172,7 @@
 	 
 	<div class="social-font" class="clearfix">
 		
-		<a href="http://weibo.com/3369367132" target="_blank" class="icon-weibo" title="微博"></a>
+		<a href="http://weibo.com/curtainwang" target="_blank" class="icon-weibo" title="微博"></a>
 		
 		
 		
@@ -254,7 +192,7 @@
 		<p class="copyright">
 		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016 
 		
-		<a href="/about" target="_blank" title="Curtain Wang">Curtain Wang</a>
+		<a href="/about" target="_blank" title="curtainwang">curtainwang</a>
 		
 		
 		</p>
@@ -296,6 +234,11 @@ $(document).ready(function(){
     o.css("top",Math.max(80,260-$(this).scrollTop()));
   });
   
+        getSize();
+        if (myWidth >= 1024) {
+          c.click();
+        }
+  
   $(window).resize(function(){
     getSize(); 
     if (myWidth >= 1024) {
@@ -304,8 +247,6 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
-      
-      $('#toc.toc-aside').css('display', 'none');
         
     }
   });

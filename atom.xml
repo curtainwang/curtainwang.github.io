@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title><![CDATA[部落格]]></title>
-  <subtitle><![CDATA[记录]]></subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   <link href="http://curtainwang.github.io/"/>
   <updated>2015-12-03T07:36:10.625Z</updated>
   <id>http://curtainwang.github.io/</id>
   
   <author>
-    <name><![CDATA[Curtain Wang]]></name>
+    <name><![CDATA[curtainwang]]></name>
     
   </author>
   
