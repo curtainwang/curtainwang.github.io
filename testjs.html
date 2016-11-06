@@ -19,9 +19,9 @@
 </head>
 
 
-<body onload="loadXMLDoc('./txt/about.txt')">
+<body onload="loadXMLDoc('txt/about.txt')">
 <div id="T1"></div>
-<button onclick="loadXMLDoc('./txt/saolei.txt')">click</button>
+<button onclick="loadXMLDoc('txt/saolei.txt')">click</button>
 
 <br />
 This is a template.
@@ -68,7 +68,6 @@ if (xmlhttp.readyState==4)
   {// 4 = "loaded"
   if (xmlhttp.status==200)
     {// 200 = "OK"
-	console.log(xmlhttp.responseText);
     document.getElementById('T1').innerHTML=xmlhttp.responseText;
     }
   else
