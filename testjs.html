@@ -68,6 +68,7 @@ if (xmlhttp.readyState==4)
   {// 4 = "loaded"
   if (xmlhttp.status==200)
     {// 200 = "OK"
+	console.log(xmlhttp.responseText);
     document.getElementById('T1').innerHTML=xmlhttp.responseText;
     }
   else
