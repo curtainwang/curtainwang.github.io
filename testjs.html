@@ -1,0 +1,82 @@
+<html>
+<head>
+	<title>CurtainWang</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<style type="text/css">
+		body{
+			font-family: 微软雅黑, monospace, serif, sans-serif, 黑体, Arial, fantasy, cuisive, Verdana, Helvetica;
+		}
+		
+		li{
+		    <!-- 	float: left;  -->
+			list-style: none;
+		}
+	</style>
+	
+
+</head>
+
+
+<body onload="loadXMLDoc('./txt/about.txt')">
+<div id="T1"></div>
+<button onclick="loadXMLDoc('./txt/saolei.txt')">click</button>
+
+<br />
+This is a template.
+
+
+
+<!--  	var xhr = new XMLHttpRequest();
+	
+	xhr.open("GET", "txt/about.txt", false);
+	xhr.send(null);
+	console.log(xhr.readyState);
+	console.log(xhr.status);
+	console.log(xhr.responseText);
+	document.write("l");
+ -->
+<script type="text/javascript">
+var xmlhttp;
+function loadXMLDoc(url)
+{
+xmlhttp=null;
+if (window.XMLHttpRequest)
+  {// code for Firefox, Opera, IE7, etc.
+  xmlhttp=new XMLHttpRequest();
+  }
+else if (window.ActiveXObject)
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+if (xmlhttp!=null)
+  {
+  xmlhttp.onreadystatechange=state_Change;
+  xmlhttp.open("GET",url,true);
+  xmlhttp.send(null);
+  }
+else
+  {
+  alert("Your browser does not support XMLHTTP.");
+  }
+}
+
+function state_Change()
+{
+if (xmlhttp.readyState==4)
+  {// 4 = "loaded"
+  if (xmlhttp.status==200)
+    {// 200 = "OK"
+    document.getElementById('T1').innerHTML=xmlhttp.responseText;
+    }
+  else
+    {
+    alert("Problem retrieving data:" + xmlhttp.statusText);
+    }
+  }
+}
+</script>
+
+</body>
+</html>
