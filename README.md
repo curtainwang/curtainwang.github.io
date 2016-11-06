@@ -9,8 +9,7 @@
 
 
 **2016-11-06 22:09**  
-试试这个吧  
-> http://www.w3school.com.cn/tiy/t.asp?f=xdom_httprequest_js_4  
+试试这个吧： http://www.w3school.com.cn/tiy/t.asp?f=xdom_httprequest_js_4   
 1.写个bat脚本读取目录下的所有文件；  
 2.生成一个file.txt的文本文件，里面列出所有文件名；  
 3.然后根据上面的链接，后台请求这个file.txt文件，根据里面每一行的文件，动态生成每个li标签；  
