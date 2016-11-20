@@ -20,7 +20,8 @@
 
 
 <body onload="loadXMLDoc('file_html.txt')">
-<div id="T1"></div>
+<div id="T1">
+</div>
 
 
 <br />
@@ -63,9 +64,10 @@ var xhr = new XMLHttpRequest();
 	function state_Change(){
 		if (xmlhttp.readyState==4){// 4 = "loaded"
 		  if (xmlhttp.status==200){// 200 = "OK"
-				var ret_value;
+				var ret_value = xmlhttp.responseText;
 				//process_string(xmlhttp.responseText, ret_value);
-				document.getElementById('T1').innerHTML=xmlhttp.responseText;
+				//ret_value = 1;
+				document.getElementById('T1').innerHTML=ret_value;
 			}
 		  else
 			{
