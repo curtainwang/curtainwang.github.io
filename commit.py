@@ -1,9 +1,12 @@
+﻿#coding:utf-8
+
 import os
 import sys
+import time
 import platform
 
-reload(sys)
-sys.setdefaultencoding("utf-8")
+default_encoding = "utf-8";
+
 '''
 dir="./"
 f=open(r'./file.txt', 'w') #g_file="file.txt"
@@ -36,13 +39,18 @@ def get_file(dir_name, file_name):
 	
 	return
 
-file_name = "file_website.txt"
+file_name = "website_list.txt"
 generate_file = open(file_name, 'w') 
 
 get_file("./html/", file_name)
 get_file("./txt/", file_name)
 
 generate_file.close()
+
+# now commit
+cmd = "git add . & "
+cmd += 'git commit -m "'+ time.strftime('%Y-%m-%d %H:%M:%S') + '" & git push'
+os.system(cmd)
 
 '''
 # check the operating system

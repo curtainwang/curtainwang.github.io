@@ -17,3 +17,16 @@
 > https://imququ.com/post/a-downloader-with-filesystem-api.html
 > https://www.html5rocks.com/zh/tutorials/file/filesystem/
 
+
+**2016-11-20 20:31**
+完成了个小的demo，对于python中的引号问题： 
+1.带双引号的字符串用单引号括起来，带单引号的字符串用双引号括起来，两种都有的用/转义 
+2.这个问题本来没什么的，但是在git的提交命令里，如果-m跟的备注信息是单引号，那么单引号里就不能有空格，只有跟双引号，才能有空格 
+3.把本来的commit.bat里的内容整合进python脚本里了，方便提交了 
+4.附commit.bat 
+> git add .
+> set tmp=%date:~0,10% %time:~0,8%
+> git commit -m "%tmp%"
+> git push
+
+
