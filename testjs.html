@@ -65,14 +65,13 @@ var xhr = new XMLHttpRequest();
 		if (xmlhttp.readyState==4){// 4 = "loaded"
 		  if (xmlhttp.status==200){// 200 = "OK"
 				var ret_values = xmlhttp.responseText;
-				var ret_value = "";
+				//var ret_value = "";
 				//process_string(xmlhttp.responseText, ret_value);
 				ret_values = ret_values.split('|');
-				for (var i in ret_values){
-					ret_value += i;
-				}
-				
-				document.getElementById('T1').innerHTML=ret_value;
+				//for (var i in ret_values){
+				//	ret_value += i;
+				//}
+				document.getElementById('T1').innerHTML=ret_values;
 			}
 		  else
 			{
