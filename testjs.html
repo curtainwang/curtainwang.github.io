@@ -19,7 +19,7 @@
 </head>
 
 
-<body onload="call_ajax()">
+<body onload="loadXMLDoc('file_website.txt')">
 
 <ul id="txt">
 </ul>
@@ -45,11 +45,6 @@ var xhr = new XMLHttpRequest();
 	document.write("l");
  -->
 <script type="text/javascript">
-	function call_ajax(){
-		loadXMLDoc('file_txt.txt');
-		//loadXMLDoc('file_html.txt');
-	}
-
 	var xmlhttp;
 	function loadXMLDoc(url){
 		xmlhttp=null;

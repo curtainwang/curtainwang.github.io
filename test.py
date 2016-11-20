@@ -26,20 +26,23 @@ f.close()
 '''
 
 def get_file(dir_name, file_name):
-	generate_file = open(file_name, 'w') 
+	
 	#generate_file.decode
 	
 	for file in os.listdir(dir_name):
 		generate_file.write(file)
 		generate_file.write('|')
 
-	generate_file.close()
+	
 	return
 
+file_name = "file_website.txt"
+generate_file = open(file_name, 'w') 
 
+get_file("./html/", file_name)
+get_file("./txt/", file_name)
 
-get_file("./html/", "file_html.txt")
-get_file("./txt/", "file_txt.txt")
+generate_file.close()
 
 '''
 # check the operating system
