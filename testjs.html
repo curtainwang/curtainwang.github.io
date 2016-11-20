@@ -75,6 +75,7 @@ var xhr = new XMLHttpRequest();
 				ret_values = ret_values.split('|');
 				for (var i in ret_values){
 					ret_value = ret_value +"<li><a href='txt/" + ret_values[i] + "'>" + ret_values[i].split('.')[0] + "</a></li>";
+					console.log(ret_values[i].split('.')[0])
 				}
 				//document.getElementById('txt').innerHTML=ret_value;
 				document.getElementById(ret_values[0].split('.')[1]).innerHTML=ret_value;
