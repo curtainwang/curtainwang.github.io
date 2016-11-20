@@ -18,13 +18,13 @@
 > https://www.html5rocks.com/zh/tutorials/file/filesystem/
 
 
-**2016-11-20 20:31**   
+**2016-11-20 21:56**   
 完成了个小的demo，对于python中的引号问题：  
 1.带双引号的字符串用单引号括起来，带单引号的字符串用双引号括起来，两种都有的用/转义  
 2.这个问题本来没什么的，但是在git的提交命令里，如果-m跟的备注信息是单引号，那么单引号里就不能有空格，只有跟双引号，才能有空格  
 3.把本来的commit.bat里的内容整合进python脚本里了，方便提交了  
 4.关于python的汉字编码问题，真是操碎了心，找了半天，试了各种方法，才发现是Windows系统返回的是gb2312的编码的字符串，需要解码：参考链接[http://xanderzhang.iteye.com/blog/465992]
-> 首先要搞清楚，字符串在Python内部的表示是unicode编码. 因此，在做编码转换时，通常需要以unicode作为中间编码，即先将其他编码的字符串解码（decode）成unicode，再从unicode编码（encode）成另一种编码。 
+> 首先要搞清楚，字符串在Python内部的表示是unicode编码. 因此，在做编码转换时，通常需要以unicode作为中间编码，即先将其他编码的字符串解码（decode）成unicode，再从unicode编码（encode）成另一种编码。   
 > (1) decode的作用是将其他编码的字符串转换成unicode编码， 如str1.decode('gb2312')，表示将gb2312编码的字符串转换成unicode编码。  
 > (2) encode的作用是将unicode编码转换成其他编码的字符串， 如str2.encode('gb2312')，表示将unicode编码的字符串转换成gb2312编码。   
 >  (3)在某些IDE中，字符串的输出总是出现乱码，甚至错误，其实是由于IDE的结果输出控制台自身不能显示字符串的编码，而不是程序本身的问题     
