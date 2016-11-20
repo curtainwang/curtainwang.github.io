@@ -15,32 +15,85 @@
 			list-style: none;
 		}
 	</style>
+	<script type="text/javascript">
+		var xmlhttp;
+		function loadXMLDoc(url){
+			xmlhttp=null;
+			if (window.XMLHttpRequest){// code for Firefox, Opera, IE7, etc.
+			  xmlhttp=new XMLHttpRequest();
+			}else if (window.ActiveXObject){// code for IE6, IE5
+			  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			if (xmlhttp!=null){
+			  xmlhttp.onreadystatechange=state_Change;
+			  xmlhttp.open("GET",url,true);
+			  xmlhttp.send(null);
+			  
+			}else{
+			  alert("Your browser does not support XMLHTTP.");
+			}
+		}
 
+		function process_string(obj, website_text){
+			website_text = obj.split("|");
+		}
+
+		function state_Change(){
+			if (xmlhttp.readyState==4){// 4 = "loaded"
+			  if (xmlhttp.status==200){// 200 = "OK"
+					var website_text = xmlhttp.responseText;
+					var ret_value = "";
+					//process_string(xmlhttp.responseText, ret_value);
+					website_text = website_text.split('|');
+					for (var i in website_text){
+						//ret_value = ret_value +"<li><a href='txt/" + website_text[i] + "'>" + website_text[i].split('.')[0] + "</a></li>";
+						//console.log(website_text[i].split('.')[0]);
+						
+						document.getElementById(website_text[i].split('.')[1]).innerHTML += "<li><a href='txt/" + website_text[i] + "'>" + website_text[i].split('.')[0] + "</a></li>";
+						//document.getElementById(website_text[i].split('.')[1]).innerHTML += ret_value;
+					}
+					//document.getElementById('txt').innerHTML=ret_value;
+					//document.getElementById(website_text[0].split('.')[1]).innerHTML=ret_value;
+				}
+			  else
+				{
+					alert("Problem retrieving data:" + xmlhttp.statusText);
+				}
+			  }
+		}
+	</script>
 
 </head>
 
 
-<body>
+<body onload="loadXMLDoc('file_website.txt')">
 hello, welcome to my blog
 <br/>
 ------------------------------
 
 <!-- part 1 -->
+<!-- 
 <br /><br />
 <ul>some words to say
 	<li><a href="txt/saolei.txt">扫雷</a></li>
 	<li><a href="txt/做事情.txt">做事情</a></li>
 	<li><a href="txt/about.txt">关于</a></li>
-</ul>
+</ul> 
+-->
 
 
 <!-- part2 -->
+<!-- 
 <br/> <br/>
 <ul>some things to share
 	<li><a href="html/away.html">a song</a></li>
-</ul>
+</ul> 
+-->
 
-
+<br /><br />
+<ul id="html"></ul>
+<br /><br />
+<ul id="txt"></ul>
 
 </body>
 </html>
