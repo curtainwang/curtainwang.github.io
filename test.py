@@ -1,6 +1,9 @@
 import os
+import sys
 import platform
 
+reload(sys)
+sys.setdefaultencoding("utf-8")
 '''
 dir="./"
 f=open(r'./file.txt', 'w') #g_file="file.txt"
@@ -24,10 +27,11 @@ f.close()
 
 def get_file(dir_name, file_name):
 	generate_file = open(file_name, 'w') 
-
+	#generate_file.decode
+	
 	for file in os.listdir(dir_name):
 		generate_file.write(file)
-		generate_file.write('\n')
+		generate_file.write('|')
 
 	generate_file.close()
 	return
