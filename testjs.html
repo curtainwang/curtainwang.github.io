@@ -20,10 +20,13 @@
 
 
 <body onload="loadXMLDoc('file_txt.txt')">
-<div id="T1">
-<ul id="fuck">
+
+<ul id="txt">
 </ul>
-</div>
+
+<ul id="html">
+</ul>
+
 
 
 <br />
@@ -73,7 +76,8 @@ var xhr = new XMLHttpRequest();
 				for (var i in ret_values){
 					ret_value = ret_value +"<li><a href='txt/" + ret_values[i] + "'>" + ret_values[i].split('.')[0] + "</a></li>";
 				}
-				document.getElementById('fuck').innerHTML=ret_value;
+				//document.getElementById('txt').innerHTML=ret_value;
+				document.getElementById(ret_values[0].split('.')[1]).innerHTML=ret_value;
 			}
 		  else
 			{
