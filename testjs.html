@@ -47,7 +47,7 @@ var xhr = new XMLHttpRequest();
 <script type="text/javascript">
 	function call_ajax(){
 		loadXMLDoc('file_txt.txt');
-		loadXMLDoc('file_html.txt');
+		//loadXMLDoc('file_html.txt');
 	}
 
 	var xmlhttp;
@@ -60,7 +60,9 @@ var xhr = new XMLHttpRequest();
 		}
 		if (xmlhttp!=null){
 		  xmlhttp.onreadystatechange=state_Change;
-		  xmlhttp.open("GET",url,true);
+		  xmlhttp.open("GET","file_txt.txt",true);
+		  xmlhttp.send(null);
+		  xmlhttp.open("GET","file_html.txt",true);
 		  xmlhttp.send(null);
 		}else{
 		  alert("Your browser does not support XMLHTTP.");
