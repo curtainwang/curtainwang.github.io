@@ -69,7 +69,7 @@ var xhr = new XMLHttpRequest();
 				//process_string(xmlhttp.responseText, ret_value);
 				ret_values = ret_values.split('|');
 				for (var i in ret_values){
-					ret_value = ret_value + ret_values[i];
+					ret_value = ret_value +"<li><a href='txt/" + ret_values[i] + "'>" + i.toString() + "</a></li>";
 				}
 				document.getElementById('T1').innerHTML=ret_value;
 			}
