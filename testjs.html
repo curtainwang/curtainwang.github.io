@@ -63,24 +63,24 @@ var xhr = new XMLHttpRequest();
 		}
 	}
 
-	function process_string(obj, ret_values){
-		ret_values = obj.split("|");
+	function process_string(obj, website_text){
+		website_text = obj.split("|");
 	}
 
 	function state_Change(){
 		if (xmlhttp.readyState==4){// 4 = "loaded"
 		  if (xmlhttp.status==200){// 200 = "OK"
-				var ret_values = xmlhttp.responseText;
+				var website_text = xmlhttp.responseText;
 				var ret_value = "";
 				//process_string(xmlhttp.responseText, ret_value);
-				ret_values = ret_values.split('|');
-				for (var i in ret_values){
-					ret_value = ret_value +"<li><a href='txt/" + ret_values[i] + "'>" + ret_values[i].split('.')[0] + "</a></li>";
-					console.log(ret_values[i].split('.')[0]);
-					console.log(ret_values[0].split('.')[1]);
+				website_text = website_text.split('|');
+				for (var i in website_text){
+					ret_value = ret_value +"<li><a href='txt/" + website_text[i] + "'>" + website_text[i].split('.')[0] + "</a></li>";
+					//console.log(website_text[i].split('.')[0]);
+					document.getElementById(website_text[i].split('.')[1]).innerHTML += ret_value;
 				}
 				//document.getElementById('txt').innerHTML=ret_value;
-				document.getElementById(ret_values[0].split('.')[1]).innerHTML=ret_value;
+				document.getElementById(website_text[0].split('.')[1]).innerHTML=ret_value;
 			}
 		  else
 			{
