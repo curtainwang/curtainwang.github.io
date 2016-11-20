@@ -21,14 +21,15 @@
 
 <body onload="loadXMLDoc('file_html.txt')">
 <div id="T1"></div>
-<button onclick="loadXMLDoc('file_txt.txt')">click</button>
+
 
 <br />
-This is a template.
 
 
 
-<!--  	var xhr = new XMLHttpRequest();
+<!--  	<button onclick="loadXMLDoc('file_txt.txt')">click</button>
+
+var xhr = new XMLHttpRequest();
 	
 	xhr.open("GET", "txt/about.txt", false);
 	xhr.send(null);
@@ -64,7 +65,7 @@ This is a template.
 		  if (xmlhttp.status==200){// 200 = "OK"
 				var ret_value;
 				process_string(xmlhttp.responseText, ret_value);
-				document.getElementById('T1').innerHTML=ret_value;
+				document.getElementById('T1').innerHTML="hello";
 			}
 		  else
 			{
