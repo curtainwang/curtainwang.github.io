@@ -64,8 +64,8 @@ var xhr = new XMLHttpRequest();
 		if (xmlhttp.readyState==4){// 4 = "loaded"
 		  if (xmlhttp.status==200){// 200 = "OK"
 				var ret_value;
-				process_string(xmlhttp.responseText, ret_value);
-				document.getElementById('T1').innerHTML="hello";
+				//process_string(xmlhttp.responseText, ret_value);
+				document.getElementById('T1').innerHTML=xmlhttp.responseText;
 			}
 		  else
 			{
