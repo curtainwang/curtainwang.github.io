@@ -21,6 +21,8 @@
 
 <body onload="loadXMLDoc('file_txt.txt')">
 <div id="T1">
+<ul id="fuck">
+</ul>
 </div>
 
 
@@ -71,7 +73,7 @@ var xhr = new XMLHttpRequest();
 				for (var i in ret_values){
 					ret_value = ret_value +"<li><a href='txt/" + ret_values[i] + "'>" + ret_values[i].split('.')[0] + "</a></li>";
 				}
-				document.getElementById('T1').innerHTML=ret_value;
+				document.getElementById('fuck').innerHTML=ret_value;
 			}
 		  else
 			{
