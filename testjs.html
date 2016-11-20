@@ -19,7 +19,7 @@
 </head>
 
 
-<body>
+<body onload="loadXMLDoc('file_txt.txt');loadXMLDoc('file_html.txt');">
 
 <ul id="txt">
 </ul>
@@ -46,8 +46,6 @@ var xhr = new XMLHttpRequest();
  -->
 <script type="text/javascript">
 	var xmlhttp;
-	loadXMLDoc('file_txt.txt');
-	loadXMLDoc('file_html.txt');
 	function loadXMLDoc(url){
 		xmlhttp=null;
 		if (window.XMLHttpRequest){// code for Firefox, Opera, IE7, etc.
