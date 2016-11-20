@@ -49,7 +49,7 @@
 						//ret_value = ret_value +"<li><a href='txt/" + website_text[i] + "'>" + website_text[i].split('.')[0] + "</a></li>";
 						//console.log(website_text[i].split('.')[0]);
 						
-						document.getElementById(website_text[i].split('.')[1]).innerHTML += "<li><a href='txt/" + website_text[i] + "'>" + website_text[i].split('.')[0] + "</a></li>";
+						document.getElementById(website_text[i].split('.')[1]).innerHTML += "<li><a href='" + website_text[i].split('.')[1] + "/" + website_text[i] + "'>" + website_text[i].split('.')[0] + "</a></li>";
 						//document.getElementById(website_text[i].split('.')[1]).innerHTML += ret_value;
 					}
 					//document.getElementById('txt').innerHTML=ret_value;
