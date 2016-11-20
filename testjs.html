@@ -55,10 +55,9 @@ var xhr = new XMLHttpRequest();
 		}
 		if (xmlhttp!=null){
 		  xmlhttp.onreadystatechange=state_Change;
-		  xmlhttp.open("GET","file_txt.txt",true);
+		  xmlhttp.open("GET",url,true);
 		  xmlhttp.send(null);
-		  xmlhttp.open("GET","file_html.txt",true);
-		  xmlhttp.send(null);
+		  
 		}else{
 		  alert("Your browser does not support XMLHTTP.");
 		}
