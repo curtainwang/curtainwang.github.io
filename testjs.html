@@ -66,7 +66,7 @@ var xhr = new XMLHttpRequest();
 		  if (xmlhttp.status==200){// 200 = "OK"
 				var ret_value = xmlhttp.responseText;
 				//process_string(xmlhttp.responseText, ret_value);
-				//ret_value = 1;
+				ret_value = ret_value.split('|');
 				document.getElementById('T1').innerHTML=ret_value;
 			}
 		  else
