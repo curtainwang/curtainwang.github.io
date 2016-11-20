@@ -1,13 +1,14 @@
-# -*- coding: UTF-8 -*-
-
+﻿
 import os
 import sys
 import time
 import platform
 
-#default_encoding = "UTF-8";
-reload(sys) 
-sys.setdefaultencoding('utf-8')  # 设置 'utf-8'  
+default_encoding="utf-8"
+
+if(default_encoding!=sys.getdefaultencoding()):
+    reload(sys)
+    sys.setdefaultencoding(default_encoding)
 
 '''
 dir="./"
@@ -35,7 +36,7 @@ def get_file(dir_name, file_name):
 	#generate_file.decode
 	
 	for file in os.listdir(dir_name):
-		generate_file.write(file)
+		generate_file.write(file.decode('gb2312'))
 		generate_file.write('|')
 
 	
@@ -48,6 +49,8 @@ get_file("./html/", file_name)
 get_file("./txt/", file_name)
 
 generate_file.close()
+
+
 
 # now commit
 cmd = "git add . & "
