@@ -5,7 +5,9 @@ import sys
 import time
 import platform
 
-default_encoding = "UTF-8";
+#default_encoding = "UTF-8";
+reload(sys) 
+sys.setdefaultencoding('utf-8')  # 设置 'utf-8'  
 
 '''
 dir="./"
@@ -40,7 +42,7 @@ def get_file(dir_name, file_name):
 	return
 
 file_name = "website_list.txt"
-generate_file = open(file_name, 'w') 
+generate_file = open(file_name, "w") 
 
 get_file("./html/", file_name)
 get_file("./txt/", file_name)
