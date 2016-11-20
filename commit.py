@@ -1,11 +1,11 @@
-﻿#coding=utf-8
+﻿# -*- coding: UTF-8 -*-
 
 import os
 import sys
 import time
 import platform
 
-default_encoding = "utf-8";
+default_encoding = "UTF-8";
 
 '''
 dir="./"
