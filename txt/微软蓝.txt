@@ -1,0 +1,10 @@
+﻿#1570A6 微软蓝 21 112 166
+#00c8FF Surface蓝 0 200 255
+#00AEEE Surface蓝 0 174 238
+#EB3C00 Office365橙色 235 60 0
+Office绿：140 198 62
+Office蓝：0 173 239
+Office深蓝：0 65 133
+Office橙色：222 100 17
+Skydrive蓝：10 88 193
+老版微软蓝：0 151 254
